@@ -53,8 +53,9 @@ You are required to submit BOTH of the following for review:
 
 ## Result
 
-link to deployed application : https://pc611652003.github.io/Challenge02/
-link to repository : https://github.com/pc611652003/Challenge02
+link to deployed application : https://pc611652003.github.io/Professional_Portfolio/
+
+link to repository : https://github.com/pc611652003/Professional_Portfolio/
 
 ![alt text](screenshot01.PNG "First part of the deployed application")
 ![alt text](screenshot02.PNG "Second part of the deployed application, including showing hover effect")
