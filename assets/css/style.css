@@ -12,7 +12,6 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -24,8 +23,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     background-color: var(--tertiary-color);
     background-image: url("../images/boardgame.jpg");
@@ -98,11 +95,14 @@ header nav ul li a:hover {
 section {
     display: flex;
     flex-wrap: wrap;
-    background-color: skyblue;
+    background-color:wheat;
     align-items: center;
+    border-bottom: var(--secondary-color) solid 2px;
+    width: 100%;
 }
 
 .section-title {
+    width: 30%;
     text-align: right;
     align-items: center;
     margin-top: 2vw;
@@ -115,6 +115,7 @@ section {
 }
 
 .section-content {
+    width: 70%;
     margin-top: 2vw;
     margin-right: 10vw;
     margin-bottom: 2vw;
@@ -125,11 +126,23 @@ section {
 }
 
 /* Start of About-Me */
+.About-Me-text {
+    font-size: 25px;
+    color: var(--primary-color);
+}
 /* End of About-Me */
 
 /* Start of Work */
+.work-examples {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 30%;
+}
+
 .work-examples img {
-    width: 400px;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
@@ -140,17 +153,35 @@ section {
     justify-content: center;
 }
 
-.section-content h4{
+.section-content .Work-example-title{
     text-align: center;
 }
 
-.work-examples:first-child img{
-    width: 800px;
+.work-examples:first-child {
+    flex: 0 0 90%;
 }
 /* End of Work */
 
 /* Start of Contact-Me */
+.section-contact-me .section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 /* End of Contact-Me */
 
 /* Start of Footer */
+footer {
+    background-color:whitesmoke;
+    color: var(--secondary-color);
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
 /* End of Footer */
