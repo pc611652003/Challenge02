@@ -33,12 +33,25 @@ header {
     z-index: 9998;
 }
 
-header h1 {
+.developer {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.developer h1 {
+    align-items: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     color: var(--primary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.developer img {
+    align-items: center;
+    height: 60px;
+    width: auto;
 }
   
 header nav {
