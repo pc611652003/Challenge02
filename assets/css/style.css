@@ -220,6 +220,7 @@ footer h2 {
 
 /* Media Queries */
 @media screen and (max-width: 980px) {
+    /* Move Section Title on top of Section Content with screen is small */
     section {
         display: inline-block;
         flex-wrap: nowrap;
@@ -240,7 +241,9 @@ footer h2 {
 }
 
 @media screen and (max-width: 768px) {
+    /* Not Much Change needed due to lack of Contents */
 }
 
 @media screen and (max-width: 575px) {
+    /* Not Much Change needed due to lack of Contents */
 }
