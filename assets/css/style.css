@@ -177,16 +177,15 @@ section {
     text-align: center;
 }
 
-.work-examples:hover img {
+#work-image:hover {
     /* Creating hover effect on image */
     opacity: 0.5;
 }
 
-.work-examples:hover .Work-example-title {
+.Work-example-title:hover {
     /* Creating hover effect on work-title */
     background-color: var(--secondary-color);
 }
-
 
 .work-examples:first-child {
     /* Making the first work bigger */
