@@ -137,7 +137,7 @@ section {
     margin-bottom: 2vw;
     margin-left: 5vw;
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 1.5vw;
     flex: 5;
 }
 /* End of main */
@@ -160,10 +160,16 @@ section {
     flex: 0 0 30%;
 }
 
+.image-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .work-examples img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    /*object-fit: cover;*/
     opacity: 1;
 }
 
@@ -173,8 +179,52 @@ section {
     justify-content: center;
 }
 
-.section-content .Work-example-title{
+.Work-example-title{
     text-align: center;
+}
+
+.section-content .Work-example-description{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    background-color:var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.section-content .btn{
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    width: 50%;
+    font-size: 1vw;
+}
+
+.section-content .ABtn{
+    bottom: 0;
+    left: 0;
+    background-color:var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+.section-content .RBtn{
+    bottom: 0;
+    right: 0;
+    background-color:var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+.image-wrap:hover .Work-example-description{
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-wrap:hover .btn{
+    visibility: visible;
+    opacity: 1;
 }
 
 #work-image:hover {
@@ -190,6 +240,14 @@ section {
 .work-examples:first-child {
     /* Making the first work bigger */
     flex: 0 0 90%;
+}
+
+.work-examples:first-child .Work-example-description {
+    font-size: 3vw;
+}
+
+.work-examples:first-child .btn {
+    font-size: 3vw;
 }
 /* End of Work */
 
