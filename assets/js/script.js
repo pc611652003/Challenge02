@@ -39,7 +39,7 @@ var workExamplesDetails = [
         name: "Travel Agent",
         imageLink: "./assets/images/travel-agent-page.PNG",
         ApplicationLink: "https://maxh1231.github.io/travel-agent/",
-        RepositoryLink: "https://github.com/maxh1231/travel-agent"
+        RepositoryLink: "https://github.com/pc611652003/travel-agent/"
     }
 ];
 
