@@ -40,6 +40,12 @@ var workExamplesDetails = [
         imageLink: "./assets/images/travel-agent-page.PNG",
         ApplicationLink: "https://maxh1231.github.io/travel-agent/",
         RepositoryLink: "https://github.com/pc611652003/travel-agent/"
+    },
+    {
+        name: "Allergy-Finder",
+        imageLink: "./assets/images/allergy-finder-page.PNG",
+        ApplicationLink: "https://whispering-chamber-78611.herokuapp.com/",
+        RepositoryLink: "https://github.com/pc611652003/Allergy-Finder"
     }
 ];
 
