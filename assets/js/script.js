@@ -46,6 +46,12 @@ var workExamplesDetails = [
         imageLink: "./assets/images/allergy-finder-page.PNG",
         ApplicationLink: "https://whispering-chamber-78611.herokuapp.com/",
         RepositoryLink: "https://github.com/pc611652003/Allergy-Finder"
+    },
+    {
+        name: "FEEDback",
+        imageLink: "./assets/images/FEEDback-page.PNG",
+        ApplicationLink: "https://polar-mountain-81832.herokuapp.com/",
+        RepositoryLink: "https://github.com/pc611652003/FEEDback"
     }
 ];
 
